@@ -1,3 +1,11 @@
-base    = "OneDrive/Desktop/all folder/react/todoAppusingallcompo/todoapp"
-publish = "dist"
-command = "npm run build"
+# netlify.toml
+
+[build]
+  # The folder containing your package.json
+  base    = "OneDrive/Desktop/all folder/react/todoAppusingallcompo/todoapp"
+  # The folder where Vite outputs the built site
+  publish = "dist"
+  # Build command for Vite
+  command = "npm run build"
+
+
