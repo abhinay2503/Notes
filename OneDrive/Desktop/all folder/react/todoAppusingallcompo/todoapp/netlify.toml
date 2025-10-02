@@ -1,0 +1,3 @@
+base    = "OneDrive/Desktop/all folder/react/todoAppusingallcompo/todoapp"
+publish = "dist"
+command = "npm run build"
